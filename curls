@@ -1,0 +1,4 @@
+curl -X POST -vu me:111 http://localhost:8080/oauth/token -H "Accept: application/json" -d "password=aa&username=aa&grant_type=password&scope=camzia&client_secret=111&client_id=me"
+
+
+curl http://localhost:8080/check -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0NDk1NTI2OTMsInVzZXJfbmFtZSI6ImFhIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIiwiUk9MRV9BRE1JTiJdLCJqdGkiOiI1NWVkYzlmZS0zZTI1LTRlYmEtODA0MS1mMWVhOWY2YjRhMWUiLCJjbGllbnRfaWQiOiJtZSIsInNjb3BlIjpbImNhbXppYSJdfQ.Wmc5w-ApFvUsBVHKpSZQ-n72hx1Xt3BxSg0iB8_xz2Y"
